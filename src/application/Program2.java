@@ -38,17 +38,17 @@ public class Program2 {
 		departmentDao.insert(newDepartment);
 		System.out.println("Inserted! New id = " + newDepartment.getId());
 		
-		/*System.out.println("\n=== TEST 5: department update ====");
-		department = departmentDao.findById(5);
-		department.setName("Martha Waine");
+		System.out.println("\n=== TEST 5: department update ====");
+		department = departmentDao.findById(6);
+		department.setName("Technology");
 		departmentDao.update(department);
 		System.out.println("Update completed");
 		
-		System.out.println("\n=== TEST 6: seller delete ====");
+		System.out.println("\n=== TEST 6: department delete ====");
 		System.out.println("Enter id for delete test: ");
 		int id = sc.nextInt();
-		sellerDao.deleteById(id);
-		System.out.println("Delete complete");*/
+		departmentDao.deleteById(id);
+		System.out.println("Delete complete");
 		
 		
 		
