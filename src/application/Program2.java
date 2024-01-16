@@ -20,14 +20,14 @@ public class Program2 {
 		Department department = departmentDao.findById(5);
 		System.out.println(department);
 		
-		/*System.out.println("\n=== TEST 2: seller findByDepartment ====");
-		Department department = new Department(2, null);
+		System.out.println("\n=== TEST 2: department findByDepartment ====");
+		department = new Department(2, null);
 		List<Department> list = departmentDao.findByDepartment(department);
 		for (Department obj : list) {
 			System.out.println(obj);
 		}
 		
-		System.out.println("\n=== TEST 3: seller findAll ====");
+		/*System.out.println("\n=== TEST 3: seller findAll ====");
 		list = departmentDao.findAll();
 		for (Department obj : list) {
 			System.out.println(obj);
