@@ -33,12 +33,12 @@ public class Program2 {
 			System.out.println(obj);
 		}
 		
-		/*System.out.println("\n=== TEST 4: department insert ====");
-		Department newDepartment = new Department(null, "Music");
+		System.out.println("\n=== TEST 4: department insert ====");
+		Department newDepartment = new Department(null, "TI");
 		departmentDao.insert(newDepartment);
 		System.out.println("Inserted! New id = " + newDepartment.getId());
 		
-		System.out.println("\n=== TEST 5: department update ====");
+		/*System.out.println("\n=== TEST 5: department update ====");
 		department = departmentDao.findById(5);
 		department.setName("Martha Waine");
 		departmentDao.update(department);
