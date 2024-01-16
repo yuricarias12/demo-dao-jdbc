@@ -39,7 +39,7 @@ public class Program2 {
 		System.out.println("Inserted! New id = " + newDepartment.getId());
 		
 		System.out.println("\n=== TEST 5: department update ====");
-		department = departmentDao.findById(6);
+		department = departmentDao.findById(1);
 		department.setName("Technology");
 		departmentDao.update(department);
 		System.out.println("Update completed");
